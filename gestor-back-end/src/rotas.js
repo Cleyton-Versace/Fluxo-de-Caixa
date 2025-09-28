@@ -93,11 +93,12 @@ export default async function Rotas(fastify, options) {
 
           return resposta.send({ mensagem: "Usuario cadastrado com sucesso" });
         } catch (error) {
+          console.log(error);
           return resposta.send({
             error:
               "Por favor, contacte o desenvolvedor do sistema: Cleytonversace1@gmail.com",
           });
-          // console.log(error);
+          
         }
       }
     },

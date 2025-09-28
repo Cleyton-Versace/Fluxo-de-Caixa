@@ -1,0 +1,16 @@
+.inp-primary{
+  background: #244192;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+.btn-primary{
+  background-color: #00533a;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  font-weight: 700;
+}
+.text-p{
+  font-size: 12px;
+  font-weight: bold;
+}
